@@ -1,0 +1,121 @@
+kunden_nr;vorname;nachname;email;strasse;plz;stadt;registriert_am
+K00001;Ulf;Fischer;ulf.fischer1@example.com;Lindenallee 29;80331;München;2025-10-09
+K00002;Emma;Fischer;emma.fischer2@example.com;Ringstraße 55;01067;Dresden;2025-03-31
+K00003;Ben;Müller;ben.mueller3@example.com;Lindenallee 65;10115;Berlin;2025-08-12
+K00004;Tina;Müller;tina.mueller4@example.com;Rosenweg 54;01067;Dresden;2025-07-23
+K00005;Hannes;Schröder;hannes.schroeder5@example.com;Hauptstraße 98;28195;Bremen;2025-10-12
+K00006;Ahmet;Meyer;ahmet.meyer6@example.com;Schulstraße 20;04109;Leipzig;2025-12-15
+K00007;Greta;Koch;greta.koch7@example.com;Kirchplatz 13;10115;Berlin;2025-04-05
+K00008;Lukas;Richter;lukas.richter8@example.com;Hauptstraße 94;28195;Bremen;2025-09-28
+K00009;Olga;Kowalski;olga.kowalski9@example.com;Bahnhofstraße 71;10115;Berlin;2026-01-23
+K00010;Jonas;Nguyen;jonas.nguyen10@example.com;Bahnhofstraße 6;70173;Stuttgart;2025-07-16
+K00011;Vera;Becker;vera.becker11@example.com;Lindenallee 111;60311;Frankfurt am Main;2025-03-23
+K00012;David;Klein;david.klein12@example.com;Bergstraße 21;60311;Frankfurt am Main;2026-04-10
+K00013;Lukas;Richter;lukas.richter13@example.com;Bahnhofstraße 78;50667;Köln;2025-10-01
+K00014;Ulf;Meyer;ulf.meyer14@example.com;Gartenweg 60;01067;Dresden;2025-09-08
+K00015;Mia;Schulz;mia.schulz15@example.com;Bergstraße 108;01067;Dresden;2025-08-13
+K00016;Zoe;Schmidt;zoe.schmidt16@example.com;Bergstraße 52;50667;Köln;2025-02-02
+K00017;Ida;Schneider;ida.schneider17@example.com;Lindenallee 84;50667;Köln;2025-11-19
+K00018;Paul;Klein;paul.klein18@example.com;Schulstraße 18;90402;Nürnberg;2025-05-27
+K00019;Hannes;Kowalski;hannes.kowalski19@example.com;Ringstraße 55;01067;Dresden;2025-09-27
+K00020;Sofia;Haddad;sofia.haddad20@example.com;Lindenallee 18;04109;Leipzig;2026-01-06
+K00021;Quirin;Neumann;quirin.neumann21@example.com;Bahnhofstraße 20;10115;Berlin;2025-02-18
+K00022;Ulf;Meyer;ulf.meyer22@example.com;Kirchplatz 49;04109;Leipzig;2025-03-07
+K00023;Tina;Schröder;tina.schroeder23@example.com;Rosenweg 111;01067;Dresden;2025-09-15
+K00024;Anna;Fischer;anna.fischer24@example.com;Bergstraße 15;01067;Dresden;2025-10-01
+K00025;Jonas;Wolf;jonas.wolf25@example.com;Hauptstraße 93;20095;Hamburg;2026-04-10
+K00026;Sofia;Schulz;sofia.schulz26@example.com;Rosenweg 117;01067;Dresden;2025-07-02
+K00027;David;Hoffmann;david.hoffmann27@example.com;Gartenweg 48;01067;Dresden;2025-07-23
+K00028;Zoe;Meyer;zoe.meyer28@example.com;Ringstraße 42;01067;Dresden;2025-01-01
+K00029;Paul;Müller;paul.mueller29@example.com;Schulstraße 31;10115;Berlin;2026-01-07
+K00030;Ben;Becker;ben.becker30@example.com;Bahnhofstraße 94;28195;Bremen;2025-03-22
+K00031;Paul;Schneider;paul.schneider31@example.com;Gartenweg 85;01067;Dresden;2025-05-09
+K00032;Paul;Kowalski;paul.kowalski32@example.com;Rosenweg 112;20095;Hamburg;2025-09-29
+K00033;Tina;Wolf;tina.wolf33@example.com;Schulstraße 52;50667;Köln;2025-07-25
+K00034;Vera;Richter;vera.richter34@example.com;Bahnhofstraße 32;90402;Nürnberg;2026-04-08
+K00035;Hannes;Schneider;hannes.schneider35@example.com;Ringstraße 71;70173;Stuttgart;2025-01-22
+K00036;Hannes;Haddad;hannes.haddad36@example.com;Bahnhofstraße 91;50667;Köln;2025-01-08
+K00037;Ulf;Schmidt;ulf.schmidt37@example.com;Hauptstraße 111;50667;Köln;2025-03-11
+K00038;Katrin;Schneider;katrin.schneider38@example.com;Schulstraße 86;01067;Dresden;2025-09-01
+K00039;Paul;Wagner;paul.wagner39@example.com;Ringstraße 74;01067;Dresden;2025-05-16
+K00040;Paul;Becker;paul.becker40@example.com;Lindenallee 13;90402;Nürnberg;2026-02-21
+K00041;David;Wolf;david.wolf41@example.com;Kirchplatz 60;70173;Stuttgart;2026-03-10
+K00042;Marek;Schmidt;marek.schmidt42@example.com;Kirchplatz 94;10115;Berlin;2025-03-04
+K00043;Katrin;Fischer;katrin.fischer43@example.com;Lindenallee 69;50667;Köln;2025-07-16
+K00044;Olga;Weber;olga.weber44@example.com;Schulstraße 60;04109;Leipzig;2025-07-07
+K00045;Hannes;Schneider;hannes.schneider45@example.com;Hauptstraße 84;90402;Nürnberg;2025-04-11
+K00046;Rosa;Müller;rosa.mueller46@example.com;Gartenweg 53;10115;Berlin;2025-08-31
+K00047;Paul;Neumann;paul.neumann47@example.com;Hauptstraße 22;50667;Köln;2026-02-15
+K00048;Mia;Müller;mia.mueller48@example.com;Am Markt 37;04109;Leipzig;2025-09-29
+K00049;Noah;Kowalski;noah.kowalski49@example.com;Lindenallee 38;90402;Nürnberg;2025-06-08
+K00050;Greta;Schmidt;greta.schmidt50@example.com;Bergstraße 8;28195;Bremen;2025-03-04
+K00051;Ben;Haddad;ben.haddad51@example.com;Rosenweg 21;90402;Nürnberg;2026-05-30
+K00052;Ben;Yilmaz;ben.yilmaz52@example.com;Bahnhofstraße 77;10115;Berlin;2025-07-10
+K00053;Clara;Becker;clara.becker53@example.com;Ringstraße 32;04109;Leipzig;2025-05-03
+K00054;Sven;Nguyen;sven.nguyen54@example.com;Kirchplatz 85;80331;München;2025-03-25
+K00055;Sven;Haddad;sven.haddad55@example.com;Schulstraße 27;01067;Dresden;2025-11-20
+K00056;Vera;Koch;vera.koch56@example.com;Kirchplatz 17;50667;Köln;2025-09-29
+K00057;Vera;Hoffmann;vera.hoffmann57@example.com;Bahnhofstraße 2;90402;Nürnberg;2025-11-20
+K00058;Olga;Nguyen;olga.nguyen58@example.com;Bahnhofstraße 69;28195;Bremen;2025-04-13
+K00059;Greta;Yilmaz;greta.yilmaz59@example.com;Bergstraße 113;60311;Frankfurt am Main;2025-05-16
+K00060;Clara;Becker;clara.becker60@example.com;Gartenweg 57;70173;Stuttgart;2025-10-19
+K00061;Leila;Kowalski;leila.kowalski61@example.com;Rosenweg 39;60311;Frankfurt am Main;2025-01-09
+K00062;Tom;Fischer;tom.fischer62@example.com;Bahnhofstraße 114;20095;Hamburg;2025-09-28
+K00063;David;Kowalski;david.kowalski63@example.com;Schulstraße 78;20095;Hamburg;2025-10-06
+K00064;Greta;Koch;greta.koch64@example.com;Rosenweg 63;50667;Köln;2025-09-28
+K00065;Ida;Schmidt;ida.schmidt65@example.com;Schulstraße 6;10115;Berlin;2026-03-10
+K00066;Anna;Koch;anna.koch66@example.com;Gartenweg 95;20095;Hamburg;2025-09-26
+K00067;Olga;Kowalski;olga.kowalski67@example.com;Bahnhofstraße 10;04109;Leipzig;2025-01-10
+K00068;Sofia;Weber;sofia.weber68@example.com;Bergstraße 75;01067;Dresden;2025-02-06
+K00069;Rosa;Weber;rosa.weber69@example.com;Hauptstraße 40;04109;Leipzig;2025-05-11
+K00070;Lukas;Schmidt;lukas.schmidt70@example.com;Lindenallee 86;70173;Stuttgart;2025-08-04
+K00071;David;Richter;david.richter71@example.com;Ringstraße 96;01067;Dresden;2026-02-21
+K00072;Emma;Becker;emma.becker72@example.com;Kirchplatz 4;20095;Hamburg;2025-07-01
+K00073;Felix;Koch;felix.koch73@example.com;Schulstraße 21;04109;Leipzig;2025-09-12
+K00074;Ahmet;Fischer;ahmet.fischer74@example.com;Am Markt 29;04109;Leipzig;2025-02-09
+K00075;Greta;Schröder;greta.schroeder75@example.com;Lindenallee 29;70173;Stuttgart;2025-11-09
+K00076;Anna;Wagner;anna.wagner76@example.com;Schulstraße 111;04109;Leipzig;2025-12-03
+K00077;Clara;Schulz;clara.schulz77@example.com;Rosenweg 43;70173;Stuttgart;2026-02-14
+K00078;Anna;Fischer;anna.fischer78@example.com;Ringstraße 34;60311;Frankfurt am Main;2025-07-02
+K00079;Ben;Fischer;ben.fischer79@example.com;Bergstraße 94;28195;Bremen;2026-03-21
+K00080;Ahmet;Koch;ahmet.koch80@example.com;Kirchplatz 116;04109;Leipzig;2025-04-29
+K00081;Sven;Wagner;sven.wagner81@example.com;Kirchplatz 1;60311;Frankfurt am Main;2025-02-15
+K00082;Quirin;Kowalski;quirin.kowalski82@example.com;Kirchplatz 9;50667;Köln;2026-01-08
+K00083;Vera;Koch;vera.koch83@example.com;Bahnhofstraße 93;28195;Bremen;2025-11-18
+K00084;Sofia;Hoffmann;sofia.hoffmann84@example.com;Kirchplatz 42;01067;Dresden;2025-11-13
+K00085;Mia;Hoffmann;mia.hoffmann85@example.com;Lindenallee 54;01067;Dresden;2025-05-11
+K00086;Vera;Klein;vera.klein86@example.com;Kirchplatz 71;20095;Hamburg;2025-11-05
+K00087;Leila;Müller;leila.mueller87@example.com;Lindenallee 56;60311;Frankfurt am Main;2025-10-21
+K00088;Ahmet;Haddad;ahmet.haddad88@example.com;Am Markt 57;28195;Bremen;2025-11-26
+K00089;Olga;Wagner;olga.wagner89@example.com;Gartenweg 85;01067;Dresden;2026-04-30
+K00090;Clara;Hoffmann;clara.hoffmann90@example.com;Bahnhofstraße 105;01067;Dresden;2025-12-10
+K00091;Zoe;Becker;zoe.becker91@example.com;Lindenallee 19;60311;Frankfurt am Main;2025-08-19
+K00092;Anna;Schmidt;anna.schmidt92@example.com;Ringstraße 109;50667;Köln;2026-05-02
+K00093;Zoe;Schneider;zoe.schneider93@example.com;Ringstraße 25;90402;Nürnberg;2026-03-01
+K00094;Willi;Klein;willi.klein94@example.com;Lindenallee 19;90402;Nürnberg;2026-02-14
+K00095;Ulf;Müller;ulf.mueller95@example.com;Lindenallee 23;10115;Berlin;2026-03-12
+K00096;Ahmet;Yilmaz;ahmet.yilmaz96@example.com;Rosenweg 32;90402;Nürnberg;2025-02-21
+K00097;Tom;Fischer;tom.fischer97@example.com;Am Markt 86;90402;Nürnberg;2025-05-17
+K00098;Quirin;Kowalski;quirin.kowalski98@example.com;Am Markt 79;28195;Bremen;2025-11-21
+K00099;Leila;Yilmaz;leila.yilmaz99@example.com;Gartenweg 96;04109;Leipzig;2026-04-02
+K00100;Marek;Neumann;marek.neumann0@example.com;Lindenallee 108;90402;Nürnberg;2025-09-23
+K00101;Ulf;Schulz;ulf.schulz1@example.com;Lindenallee 36;01067;Dresden;2026-05-12
+K00102;Olga;Schneider;olga.schneider2@example.com;Schulstraße 43;60311;Frankfurt am Main;2025-08-29
+K00103;Katrin;Kowalski;katrin.kowalski3@example.com;Gartenweg 30;10115;Berlin;2025-05-22
+K00104;Mia;Weber;mia.weber4@example.com;Kirchplatz 53;50667;Köln;2025-03-07
+K00105;Katrin;Kowalski;katrin.kowalski5@example.com;Hauptstraße 27;90402;Nürnberg;2026-03-02
+K00106;Leila;Wolf;leila.wolf6@example.com;Ringstraße 49;04109;Leipzig;2025-01-21
+K00107;Paul;Müller;paul.mueller7@example.com;Kirchplatz 110;70173;Stuttgart;2025-11-02
+K00108;Sofia;Wolf;sofia.wolf8@example.com;Am Markt 29;01067;Dresden;2025-08-14
+K00109;Ida;Wolf;ida.wolf9@example.com;Kirchplatz 44;90402;Nürnberg;2025-01-30
+K00110;Vera;Klein;vera.klein10@example.com;Gartenweg 80;20095;Hamburg;2026-04-24
+K00111;Rosa;Müller;rosa.mueller11@example.com;Bahnhofstraße 83;04109;Leipzig;2025-01-28
+K00112;Noah;Weber;noah.weber12@example.com;Hauptstraße 34;90402;Nürnberg;2025-07-06
+K00113;Mia;Koch;mia.koch13@example.com;Bergstraße 44;50667;Köln;2026-04-11
+K00114;Zoe;Klein;zoe.klein14@example.com;Schulstraße 107;60311;Frankfurt am Main;2026-03-08
+K00115;Clara;Neumann;clara.neumann15@example.com;Bergstraße 29;80331;München;2025-02-23
+K00116;Ulf;Schneider;ulf.schneider16@example.com;Lindenallee 26;80331;München;2025-02-01
+K00117;Leila;Müller;leila.mueller17@example.com;Lindenallee 17;28195;Bremen;2025-06-06
+K00118;Paul;Fischer;paul.fischer18@example.com;Am Markt 90;28195;Bremen;2025-08-12
+K00119;Ida;Richter;ida.richter19@example.com;Gartenweg 40;20095;Hamburg;2025-04-28
+K00120;David;Haddad;david.haddad20@example.com;Ringstraße 87;80331;München;2025-11-16

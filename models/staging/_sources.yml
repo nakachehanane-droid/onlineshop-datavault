@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: shop
+    description: "Rohdaten des Onlineshops NordLicht Wohnen, per COPY INTO geladen (insert-only)."
+    database: raw
+    schema: shop
+    loaded_at_field: _geladen_am
+    freshness:
+      warn_after: {count: 7, period: day}
+    tables:
+      - name: kunden
+        description: "Kundenstammdaten. Jede Ladung bringt neue oder geänderte Kunden."
+        columns:
+          - name: kunden_nr
+            description: "Business Key des Kunden, z. B. K00001"
+            tests:
+              - not_null
+      - name: produkte
+        description: "Produktkatalog mit Listenpreis."
+      - name: bestellungen
+        description: "Bestellköpfe. Statusänderungen kommen als neue Zeile in einer späteren Ladung."
+      - name: bestellpositionen
+        description: "Positionen je Bestellung (Bestellung x Produkt)."

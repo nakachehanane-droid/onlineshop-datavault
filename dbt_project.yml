@@ -1,0 +1,33 @@
+name: onlineshop_dv
+version: "1.0.0"
+config-version: 2
+
+profile: onlineshop
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+
+clean-targets: ["target", "dbt_packages"]
+
+# Schichten des Data Warehouse – jede bekommt ihr eigenes Schema.
+models:
+  onlineshop_dv:
+    staging:          # 1:1 aus RAW, Datentypen + Namen bereinigt
+      +schema: staging
+      +materialized: view
+    dv_stage:         # Staging + Hash Keys, Hashdiffs, Load Date, Record Source
+      +schema: dv_stage
+      +materialized: view
+    raw_vault:        # Hubs, Links, Satellites – insert-only
+      +schema: raw_vault
+      +materialized: incremental
+      +on_schema_change: fail
+    business_vault:   # PIT-Tabellen, Geschäftsregeln
+      +schema: business_vault
+      +materialized: table
+    marts:            # Star-Schema für Reporting
+      +schema: marts
+      +materialized: table

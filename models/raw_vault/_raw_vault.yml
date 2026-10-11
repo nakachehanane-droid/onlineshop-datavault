@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: hub_kunde
+    description: "Hub Kunde – alle jemals gesehenen Kundennummern."
+    columns:
+      - name: hk_kunde
+        tests: [unique, not_null]
+      - name: kunden_nr
+        tests: [unique, not_null]
+
+  - name: sat_kunde_stammdaten
+    description: "Historisierte Stammdaten des Kunden (Name, E-Mail, Adresse)."
+    tests:
+      # pro Kunde und Ladezeitpunkt darf es nur EINE Zeile geben
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [hk_kunde, ladedatum]
+    columns:
+      - name: hk_kunde
+        tests:
+          - not_null
+          - relationships:
+              to: ref('hub_kunde')
+              field: hk_kunde
+
+  # AUFGABE 3 und 4: Hubs, Links und Satellites für Produkt und
+  # Bestellung hier mit Tests dokumentieren.

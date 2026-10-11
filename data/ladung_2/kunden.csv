@@ -1,0 +1,26 @@
+kunden_nr;vorname;nachname;email;strasse;plz;stadt;registriert_am
+K00081;Sven;Wagner;sven.wagner81@example.com;Ringstraße 98;20095;Hamburg;2025-02-15
+K00023;Tina;Schröder;tina.schroeder23@example.com;Am Markt 101;20095;Hamburg;2025-09-15
+K00041;David;Wolf;david.wolf41@example.com;Gartenweg 79;10115;Berlin;2026-03-10
+K00082;Quirin;Kowalski;quirin.kowalski82@example.com;Kirchplatz 52;90402;Nürnberg;2026-01-08
+K00008;Lukas;Richter;lukas.richter8@example.com;Am Markt 50;04109;Leipzig;2025-09-28
+K00001;Ulf;Fischer;ulf.fischer1@example.com;Hauptstraße 69;10115;Berlin;2025-10-09
+K00058;Olga;Nguyen;olga.nguyen58@example.com;Bergstraße 2;50667;Köln;2025-04-13
+K00036;Hannes;Haddad;hannes.haddad36@example.com;Rosenweg 25;04109;Leipzig;2025-01-08
+K00003;Ben;Müller;ben.mueller3@mail.example.org;Lindenallee 65;10115;Berlin;2025-08-12
+K00087;Leila;Müller;leila.mueller87@mail.example.org;Lindenallee 56;60311;Frankfurt am Main;2025-10-21
+K00121;Anna;Becker;anna.becker21@example.com;Schulstraße 17;50667;Köln;2025-12-19
+K00122;David;Klein;david.klein22@example.com;Gartenweg 9;01067;Dresden;2025-11-10
+K00123;Leila;Schmidt;leila.schmidt23@example.com;Am Markt 94;60311;Frankfurt am Main;2025-10-25
+K00124;Quirin;Nguyen;quirin.nguyen24@example.com;Kirchplatz 114;01067;Dresden;2025-12-12
+K00125;Vera;Weber;vera.weber25@example.com;Bergstraße 97;70173;Stuttgart;2026-05-17
+K00126;Greta;Meyer;greta.meyer26@example.com;Lindenallee 29;04109;Leipzig;2025-01-20
+K00127;Yasemin;Weber;yasemin.weber27@example.com;Ringstraße 65;50667;Köln;2025-01-23
+K00128;Felix;Fischer;felix.fischer28@example.com;Kirchplatz 113;70173;Stuttgart;2025-02-08
+K00129;Ulf;Schulz;ulf.schulz29@example.com;Ringstraße 7;01067;Dresden;2025-02-19
+K00130;Vera;Fischer;vera.fischer30@example.com;Bahnhofstraße 54;80331;München;2025-02-19
+K00131;Olga;Klein;olga.klein31@example.com;Am Markt 90;10115;Berlin;2025-09-16
+K00132;Emma;Wagner;emma.wagner32@example.com;Kirchplatz 85;80331;München;2025-11-05
+K00133;David;Yilmaz;david.yilmaz33@example.com;Kirchplatz 107;60311;Frankfurt am Main;2025-05-21
+K00134;Sofia;Fischer;sofia.fischer34@example.com;Schulstraße 15;01067;Dresden;2025-05-01
+K00135;Ahmet;Fischer;ahmet.fischer35@example.com;Ringstraße 26;90402;Nürnberg;2025-07-23

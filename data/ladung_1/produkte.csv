@@ -1,0 +1,26 @@
+produkt_nr;produktname;kategorie;listenpreis_eur
+P0001;Sofa Hygge 3-Sitzer;Möbel;899.00
+P0002;Couchtisch Eiche;Möbel;249.00
+P0003;Esstisch Fjord 180cm;Möbel;649.00
+P0004;Stuhl Lund (2er Set);Möbel;179.00
+P0005;Bücherregal Birke;Möbel;199.00
+P0006;Kommode Nord;Möbel;329.00
+P0007;Stehleuchte Bogen;Leuchten;149.00
+P0008;Pendelleuchte Glas;Leuchten;89.90
+P0009;Tischleuchte Messing;Leuchten;69.90
+P0010;LED-Lichterkette 10m;Leuchten;24.90
+P0011;Wolldecke Grau;Textilien;59.90
+P0012;Kissenhülle Leinen (2 Stk);Textilien;29.90
+P0013;Teppich Berber 160x230;Textilien;279.00
+P0014;Vorhang Samt;Textilien;49.90
+P0015;Vase Keramik;Deko;34.90
+P0016;Spiegel rund 60cm;Deko;119.00
+P0017;Kerzenhalter Set;Deko;19.90
+P0018;Bilderrahmen 30x40;Deko;14.90
+P0019;Geschirrset 18-tlg;Küche;129.00
+P0020;Gläser-Set 6 Stk;Küche;39.90
+P0021;Schneidebrett Walnuss;Küche;44.90
+P0022;Kaffeekanne Emaille;Küche;32.90
+P0023;Handtuch-Set Bio;Bad;49.90
+P0024;Badematte Baumwolle;Bad;24.90
+P0025;Seifenspender Stein;Bad;18.90

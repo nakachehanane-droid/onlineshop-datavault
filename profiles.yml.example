@@ -1,0 +1,17 @@
+# Kopiere diese Datei nach ~/.dbt/profiles.yml und trage deine Daten ein.
+# (Nur nötig für dbt Core lokal. In dbt Cloud gibst du das im UI ein.)
+# Account-Kennung findest du in Snowsight unten links: Konto » "Account details".
+onlineshop:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "<orgname>-<accountname>"
+      user: "<DEIN_BENUTZERNAME>"
+      authenticator: username_password_mfa   # oder: password / externalbrowser
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: transformer
+      warehouse: lern_wh
+      database: analytics
+      schema: dev_dein_name     # dein persönliches Entwicklungsschema
+      threads: 4
