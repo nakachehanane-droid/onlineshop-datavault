@@ -5,13 +5,13 @@ models:
     description: "Bereinigte Kundendaten, alle Ladungen (Historie bleibt erhalten)."
     columns:
       - name: kunden_nr
-        tests:
+        data_tests:
           - not_null
       - name: email
-        tests:
+        data_tests:
           - not_null
       - name: ladedatum
-        tests:
+        data_tests:
           - not_null
 
   # AUFGABE 1: Ergänze hier stg_shop__produkte, stg_shop__bestellungen

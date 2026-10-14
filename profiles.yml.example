@@ -1,6 +1,5 @@
-# Kopiere diese Datei nach ~/.dbt/profiles.yml und trage deine Daten ein.
-# (Nur nötig für dbt Core lokal. In dbt Cloud gibst du das im UI ein.)
-# Account-Kennung findest du in Snowsight unten links: Konto » "Account details".
+# Kopiere diese Datei nach ~/.dbt/profiles.yml (Windows: C:\Users\<Name>\.dbt\profiles.yml)
+# Account-Kennung: Snowsight » dein Name unten links » Konto » "View account details".
 onlineshop:
   target: dev
   outputs:
@@ -8,10 +7,9 @@ onlineshop:
       type: snowflake
       account: "<orgname>-<accountname>"
       user: "<DEIN_BENUTZERNAME>"
-      authenticator: username_password_mfa   # oder: password / externalbrowser
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      private_key_path: "C:/Users/<Name>/.dbt/rsa_key.p8"   # Key-Pair, kein Passwort
       role: transformer
       warehouse: lern_wh
       database: analytics
-      schema: dev_dein_name     # dein persönliches Entwicklungsschema
+      schema: dev_dein_name
       threads: 4

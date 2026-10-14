@@ -32,7 +32,15 @@ Vorlage: `models/staging/stg_shop__kunden.sql`
 - [ ] `stg_shop__bestellungen` – Datum als `date`, Status klein geschrieben
 - [ ] `stg_shop__bestellpositionen` – Position und Menge als `integer`
 - [ ] In `_staging.yml` Tests ergänzen: `not_null` auf Business Keys,
-      `accepted_values` für den Status (`bezahlt`, `versendet`, `zugestellt`)
+      `accepted_values` für den Status (`bezahlt`, `versendet`, `zugestellt`).
+      Schreibweise in dbt 2 (Parameter stehen unter `arguments:`):
+      ```yaml
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['bezahlt', 'versendet', 'zugestellt']
+      ```
 - [ ] `dbt build --select staging` läuft grün
 
 ## Aufgabe 2 – Hashes verstehen (Woche 8)

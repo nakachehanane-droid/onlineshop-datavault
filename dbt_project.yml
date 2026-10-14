@@ -25,9 +25,11 @@ models:
       +schema: raw_vault
       +materialized: incremental
       +on_schema_change: fail
-    business_vault:   # PIT-Tabellen, Geschäftsregeln
-      +schema: business_vault
-      +materialized: table
+    # AUFGABE 6: einkommentieren, sobald das erste Model in business_vault/ liegt
+    # (dbt 2 meldet sonst einen Fehler für einen Ordner ohne Models)
+    # business_vault:   # PIT-Tabellen, Geschäftsregeln
+    #   +schema: business_vault
+    #   +materialized: table
     marts:            # Star-Schema für Reporting
       +schema: marts
       +materialized: table

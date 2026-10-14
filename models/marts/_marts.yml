@@ -5,8 +5,8 @@ models:
     description: "Kundendimension mit dem aktuellen Stand je Kunde."
     columns:
       - name: kunde_key
-        tests: [unique, not_null]
+        data_tests: [unique, not_null]
       - name: email
-        tests: [not_null]
+        data_tests: [not_null]
 
   # AUFGABE 6: dim_produkt und fct_bestellpositionen dokumentieren und testen.
